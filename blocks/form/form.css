@@ -1,0 +1,9 @@
+.form{
+    margin: 0 22px;
+}
+
+@media screen and (min-width:1024px){
+    .form{
+        margin: 0px 123px 0px 60px;
+    }
+}
