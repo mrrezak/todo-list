@@ -7,3 +7,5 @@
 @import url(../blocks/form/__title/form__title.css);
 @import url(../blocks/form/__item/form__item.css);
 @import url(../blocks/form/__button/form__button.css);
+@import url(../blocks/form/__rectangles/form__rectangles.css);
+@import url(../blocks/form/__rectangle/form__rectangle.css);
