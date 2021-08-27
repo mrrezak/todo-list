@@ -11,7 +11,6 @@ function btnClick() {
 
     let list = document.getElementById("insert");
     list.append(div);
-    name.reset()
 
  
 }
