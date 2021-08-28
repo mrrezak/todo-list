@@ -1,3 +1,4 @@
+let i = 0;
 btn.addEventListener("click", btnClick);
 
 function btnClick() {
@@ -7,10 +8,17 @@ function btnClick() {
     console.log(description);
     let div = document.createElement('div');
     div.className = "form__rectangle";
-    div.innerHTML = "<h1 class=form__title>test</h1>"; 
-
+    div.id = "new" + i
+    div.innerHTML = "<h1 class=rectangle__title>" +name+ "</h1>"+  "<p class='rectangle__subtitle'>" + description+"</p>" + '<input type="image" src="./images/accept.png" value="" class="list__button-accept" id=accept'+i+'></input>';
     let list = document.getElementById("insert");
-    list.append(div);
-
+    if (name!=''){
+        list.append(div);
+        document.getElementById("name").value = "";
+        document.getElementById("description").value = "";
+        i+=1;
+    }
+    else{
+        window.alert("Введите название!");
+    }
  
 }

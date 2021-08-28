@@ -9,3 +9,9 @@
 @import url(../blocks/form/__button/form__button.css);
 @import url(../blocks/form/__rectangles/form__rectangles.css);
 @import url(../blocks/form/__rectangle/form__rectangle.css);
+
+@import url(../blocks/rectangle/__title/rectangle__title.css);
+@import url(../blocks/rectangle/__subtitle/rectangle__subtitle.css);
+@import url(../blocks/form/__rectangle/_green/form__rectangle_green.css);
+
+@import url(../blocks/list/__button-accept/list__button-accept.css);

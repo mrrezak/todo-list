@@ -3,4 +3,13 @@
     height: 100px;
     background: #F5F8FD;
     border-radius: 10px;
+    box-sizing: border-box;
+    margin-bottom: 24px;
+    margin-right: 24px;
+    transition: transform 0.4s ease-in;
+    position: relative;
+}
+
+.form__rectangle:hover{
+    transform: scale(1.05);
 }

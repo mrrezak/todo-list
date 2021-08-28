@@ -1,0 +1,10 @@
+.list__button-accept{
+    position: absolute;
+    top: 32px;
+    right: 29px;
+    transition: opacity 0.1s ease-in;
+}
+
+.list__button-accept:hover{
+    opacity: 0.5;
+}

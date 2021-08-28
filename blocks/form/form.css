@@ -1,9 +1,13 @@
 .form{
-    margin: 0 22px;
+    padding-left: 22px;
+    max-width: 336px;
+    margin-left: auto;
+    margin-right: auto;
 }
 
-@media screen and (min-width:1024px){
+@media screen and (min-width:1126px){
     .form{
         margin: 0px 123px 0px 60px;
+        padding: 0;
     }
 }
